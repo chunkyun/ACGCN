@@ -35,13 +35,14 @@ ACGCN
 │   ├── acgcn_mmp.py
 │   └── acgcn_sub.py
 ├── utils
-│   ├── data_loader
-│   ├── GCNPredictor.py 
-│		├── train.py
-│   └── model_utils.py
-├── result
-├── README.md
+│   ├── data_loader.py
+│   ├── GCNPredictor.py
+│   ├── model_utils.py
+│   ├── train.py
+│   └── util
 ├── args.py
+├── main.py
+├── README.md
 └── requirements.txt
 ```
 
