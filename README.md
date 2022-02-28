@@ -96,16 +96,16 @@ pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pyto
 
 ---
 ## Usage
-This code trains and tests the ACGCN model. For example,
-to train ACGCN-MMP for CHEMBL233, you run the following code:
+You can train and test the ACGCN model with the code. For example,
+you can run the following code to train the ACGCN-MMP model with the CHEMBL223 datasets:
 ```
 python main.py --model 'acgcn-mmp' --target_id 'CHEMBL233'
 ```
-For another example, to train ACGCN-sub for CHEMBL259, you run the following code:
+For another example, to train the ACGCN-sub model for CHEMBL259, you run the following code:
 ```
 python main.py --model 'acgcn-sub' --target_id 'CHEMBL259'
 ```
-If you want to train under different hyper-parameters, please check the arguments list.
+If you want to train with different hyper-parameters, please check the arguments list.
 
 ### Arguments
 - --model: ['acgcn-mmp', 'acgcn-sub']
