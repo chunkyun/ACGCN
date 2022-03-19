@@ -14,7 +14,7 @@ def main(args):
     random_seed = args['RANDOM_SEED']
 
     ### Make dataset ###
-    data = pd.read_csv('./data/' + args['TARGET_ID'] + '_mmps.csv')
+    data = pd.read_csv('./data/' + args['TARGET_NAME'] + '_mmps.csv')
     data['label'] = data['label'].astype(int)
     label = data['label']
 

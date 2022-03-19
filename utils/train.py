@@ -5,7 +5,7 @@ from utils.util import *
 
 def train(args, model, train_loader, test_loader, class_weight):
 
-    model_save_path = './result/' + args['MODEL'] + '_' + args['TARGET_ID'] + '.tar'
+    model_save_path = './result/' + args['MODEL'] + '_' + args['TARGET_NAME'] + '.tar'
     
     if not os.path.exists('./result'):
         os.makedirs('./result')

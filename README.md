@@ -28,9 +28,9 @@ ACGCN-sub uses core, substituent1, and substituent 2 as input. These inputs pass
 ```
 ACGCN
 ├── data
-│   ├── CHEMBL204_mmps.csv
-│   ├── CHEMBL233_mmps.csv
-│   └── CHEMBL259_mmps.csv
+│   ├── melanocortin_receptor_4_mmps.csv
+│   ├── mu_opioid_receptor_mmps.csv
+│   └── thrombin_mmps.csv
 ├── model
 │   ├── acgcn_mmp.py
 │   └── acgcn_sub.py
@@ -97,19 +97,19 @@ pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pyto
 ---
 ## Usage
 You can train and test the ACGCN model with the code. For example,
-you can run the following code to train the ACGCN-MMP model with the CHEMBL223 datasets:
+you can run the following code to train the ACGCN-MMP model with the Mu opioid receptor datasets:
 ```
-python main.py --model 'acgcn-mmp' --target_id 'CHEMBL233'
+python main.py --model 'acgcn-mmp' --target_name 'mu_opioid_receptor'
 ```
-For another example, to train the ACGCN-sub model for CHEMBL259, you run the following code:
+For another example, to train the ACGCN-sub model for Melanocortin receptor 4, you run the following code:
 ```
-python main.py --model 'acgcn-sub' --target_id 'CHEMBL259'
+python main.py --model 'acgcn-sub' --target_name 'melanocortin_receptor_4'
 ```
 If you want to train with different hyper-parameters, please check the arguments list.
 
 ### Arguments
 - --model: ['acgcn-mmp', 'acgcn-sub']
-- --target_id: ['CHEMBL204', 'CHEMBL233', 'CHEMBL259']
+- --target_name: ['thrombin', 'mu_opioid_receptor', 'melanocortin_receptor_4']
 - --random_seed: random seed for data split
 - --batch_size: batch size
 - --early_stopping_patience: early stopping patience
