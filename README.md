@@ -50,7 +50,7 @@ ACGCN
   
 ## Data Description
 
-The data used in this paper is given in `data` folder. The file name is CHEMBL{id}_mmps and extension is .csv (comma separated value). Please see the table below for specific description.
+The data used in this paper is given in `data` folder. The file name is {target_name}_mmps and extension is .csv (comma separated value). Please see the table below for specific description.
 
 | Column | Type | Description |
 | ------ | ------ | ------ |
