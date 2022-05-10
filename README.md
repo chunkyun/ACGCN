@@ -116,3 +116,18 @@ If you want to train with different hyper-parameters, please check the arguments
 - --weight_decay: weight decay
 - --dropout : dropout probability 
 - --device : cuda
+
+---
+  
+## Bibtex
+
+```
+@article{park2022acgcn,
+  title={ACGCN: Graph Convolutional Networks for Activity Cliff Prediction between Matched Molecular Pairs},
+  author={Park, Junhui and Sung, Gaeun and Lee, SeungHyun and Kang, SeungHo and Park, ChunKyun},
+  journal={Journal of Chemical Information and Modeling},
+  year={2022},
+  publisher={ACS Publications}
+}
+```
+
