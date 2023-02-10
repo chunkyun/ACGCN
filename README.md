@@ -88,10 +88,10 @@ pip install -r requirements.txt
 
 - PyTorch installation. Only this configurations has been tested:
   
-  - Python 3.6.7, PyTorch 1.5.1, CUDA 10.1
+  - Python 3.6.7, PyTorch 1.8.1, CUDA 10.1
 
 ```
-pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.8.1+cu101 torchvision==0.9.1+cu101 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html
 ```
 
 ---
